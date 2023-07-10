@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rosybrown;
+        font-family: -apple-system,
+         BlinkMacSystemFont, 
+         'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell,
+           'Open Sans', 'Helvetica Neue', sans-serif;
+           color: white;
+    }
+    .container{
+        background-color: rgb(0, 0, 0,0.4);
+        height: 45px;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .nav{
+        padding: 10px;
+        margin-left: 30px;
+    }
+    .cart{
+      padding: 10px;
+      margin-left: 590px;
+    }
+    
+    form{
+        height: 100%;
+        width: 100%;
+    }
+    .order-list{
+        max-width: 650px;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 50px;
+    
+        
+    }
+    .product-header{
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 4px solid lightgray;
+        margin: 0 auto;
+    }
+    .product-title{
+        width: 45%;
+    }
+    .price{
+        width: 15%;
+        border-bottom: 4px solid lightgray;
+        display: flex;
+        align-items: center;
+    }
+    .quantity{
+        width: 30%;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        align-items: center;
+    }
+    .total{
+        width: 10%;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        align-items: center;
+    }
+    
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="nav">
+        <a href="index.php">index</a>
+    </div>
+
+    <div class="cart">
+        <a href="cart.php">
+            <i class="fas fa-glass-cheers"></i> Order<span>0</span>
+        </a>
+    </div>
+</div>
+
+<div class="order-list">
+    <form>
+        <fieldset>
+            
+          <div class="product-header">
+              <h5 class="product-title">PROJECT NAME</h5>
+              <h5 class="price">PRICE</h5>
+              <h5 class="quantity">QUANTITY</h5>
+              <h5 class="total">TOTAL COST</h5>
+          </div>
+        </fieldset>
+    </form>
+</div>
+   <script src="script4.js"></script>
+</body>
+</html>
